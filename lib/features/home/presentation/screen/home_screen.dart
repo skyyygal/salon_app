@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:oasis_salon_app/features/home/presentation/provider/store_provider.dart';
+import 'package:oasis_salon_app/features/home/presentation/screen/store_profile_screen.dart';
 import 'package:oasis_salon_app/features/home/presentation/widget/gradient_text.dart';
 import 'package:oasis_salon_app/features/home/presentation/widget/storeCard.dart';
 
@@ -49,7 +50,7 @@ class HomeScreen extends ConsumerWidget {
                       fontSize: 16,
                     ),
 
-                    Icon(Icons.arrow_drop_down, size: 18, color: Colors.white),
+                    // Icon(Icons.arrow_drop_down, size: 18, color: Colors.white),
                   ],
                 ),
               ),
@@ -102,7 +103,15 @@ class HomeScreen extends ConsumerWidget {
                 itemBuilder: (context, index) {
                   final store = stores[index];
                   return GestureDetector(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) =>
+                              StoreProfileScreen(store: store),
+                        ),
+                      );
+                    },
                     child: StoreCard(store: store),
                   );
                 },

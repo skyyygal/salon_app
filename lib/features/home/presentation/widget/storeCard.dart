@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:oasis_salon_app/models/store_models.dart';
+import 'package:oasis_salon_app/features/home/data/data_sources/models/store_models.dart';
 
 class StoreCard extends ConsumerWidget {
-  final Store store;
+  final StoreModel store;
 
   const StoreCard({super.key, required this.store});
 
@@ -111,27 +111,6 @@ class StoreCard extends ConsumerWidget {
                         ),
                       ],
                     ),
-
-                    // // Offer
-                    // if (store.offers.isNotEmpty)
-                    //   Row(
-                    //     children: [
-                    //       SvgPicture.asset(
-                    //         'assets/images/offer.svg',
-                    //         width: 14,
-                    //         height: 14,
-                    //         color: Colors.green,
-                    //       ),
-                    //       const SizedBox(width: 4),
-                    //       Text(
-                    //         store.offers.first,
-                    //         style: const TextStyle(
-                    //           color: Colors.green,
-                    //           fontSize: 12,
-                    //         ),
-                    //       ),
-                    //     ],
-                    //   ),
                   ],
                 ),
               ),

@@ -1,9 +1,10 @@
 {
   "stores": [
     {
-      "id": "store_oasis",
+      "id": "1",
       "name": "Oasis Spa Haven",
       "address": "120B, Spine Arcade, Madhapur, Hyderabad",
+      "gender": "Unisex",
       "distance_km": 3.5,
       "rating": 4.5,
       "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
@@ -12,7 +13,7 @@
       ],
       "services": [
         {
-          "id": "oasis_swedish",
+          "id": "1",
           "title": "Swedish Massage",
           "description": "Gentle full-body massage to relax muscles and improve circulation.",
           "price": 4000,
@@ -22,7 +23,7 @@
           "is_popular": true
         },
         {
-          "id": "oasis_deep_tissue",
+          "id": "2",
           "title": "Deep Tissue Massage",
           "description": "Firmer pressure targeted at deeper muscle layers to relieve tension.",
           "price": 6200,
@@ -32,7 +33,7 @@
           "is_popular": true
         },
         {
-          "id": "oasis_hot_stone",
+          "id": "3",
           "title": "Hot Stone Massage",
           "description": "Warm stones + massage to soothe and relax muscles deeply.",
           "price": 6200,
@@ -44,9 +45,10 @@
       ]
     },
     {
-      "id": "store_renew",
+      "id": "2",
       "name": "Renew Day Spa",
       "address": "3rd Floor, Spine Arcade, Madhapur",
+        "gender": "Male",
       "distance_km": 3.5,
       "rating": 4.6,
       "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528",
@@ -54,32 +56,14 @@
    
       ],
       "services": [
-        {
-          "id": "renew_body_scrub",
-          "title": "Full Body Scrub",
-          "description": "Exfoliating body scrub to remove dead skin and restore glow.",
-          "price": 2500,
-          "duration_mins": 45,
-          "gender": "Any",
-          "category": "Body Care",
-          "is_popular": false
-        },
-        {
-          "id": "renew_facial",
-          "title": "Rejuvenating Facial",
-          "description": "Customized facial treatment for hydration and radiance.",
-          "price": 1800,
-          "duration_mins": 45,
-          "gender": "Any",
-          "category": "Facial",
-          "is_popular": true
-        }
+      
       ]
     },
     {
-      "id": "store_mystical",
+      "id": "3",
       "name": "Mystical Mantra Spa",
       "address": "Plot 5, Spine Arcade, Madhapur",
+        "gender": "Male",
       "distance_km": 2.8,
       "rating": 4.3,
       "image": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b",
@@ -87,32 +71,14 @@
         "Flat 15% off for first-time users"
       ],
       "services": [
-        {
-          "id": "mystical_aroma",
-          "title": "Aromatherapy Massage",
-          "description": "Soothing essential oils to calm the mind and body.",
-          "price": 3200,
-          "duration_mins": 50,
-          "gender": "Any",
-          "category": "Massage",
-          "is_popular": false
-        },
-        {
-          "id": "mystical_head",
-          "title": "Head & Shoulder Massage",
-          "description": "Focus on head, neck and shoulders to reduce stress and tension.",
-          "price": 1200,
-          "duration_mins": 30,
-          "gender": "Any",
-          "category": "Massage",
-          "is_popular": true
-        }
+ 
       ]
     },
     {
-      "id": "store_bodhi",
+      "id": "4",
       "name": "Bodhi Retreat Spa",
       "address": "7B, Spine Arcade, Madhapur",
+        "gender": "Female",
       "distance_km": 3.1,
       "rating": 4.7,
       "image": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b",
@@ -120,32 +86,14 @@
       
       ],
       "services": [
-        {
-          "id": "bodhi_couple",
-          "title": "Couple Relaxation Package",
-          "description": "Side-by-side relaxation treatments for two.",
-          "price": 8500,
-          "duration_mins": 90,
-          "gender": "Any",
-          "category": "Package",
-          "is_popular": true
-        },
-        {
-          "id": "bodhi_reflex",
-          "title": "Foot Reflexology",
-          "description": "Therapeutic foot massage to relieve pain and stress.",
-          "price": 900,
-          "duration_mins": 30,
-          "gender": "Any",
-          "category": "Therapy",
-          "is_popular": false
-        }
+       
       ]
     },
     {
-      "id": "store_ebliss",
+      "id": "5",
       "name": "Eternal Bliss Ayurvedic",
       "address": "18, Spine Arcade, Madhapur",
+      "gender": "Female",
       "distance_km": 3.8,
       "rating": 4.4,
       "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
@@ -153,26 +101,7 @@
    
       ],
       "services": [
-        {
-          "id": "ebliss_abhyanga",
-          "title": "Abhyanga (Ayurvedic Massage)",
-          "description": "Traditional Ayurvedic oil massage to balance doshas.",
-          "price": 5200,
-          "duration_mins": 60,
-          "gender": "Any",
-          "category": "Ayurvedic",
-          "is_popular": true
-        },
-        {
-          "id": "ebliss_shirodhara",
-          "title": "Shirodhara Therapy",
-          "description": "Warm oil poured gently on the forehead to calm the nervous system.",
-          "price": 4200,
-          "duration_mins": 45,
-          "gender": "Any",
-          "category": "Therapy",
-          "is_popular": false
-        }
+     
       ]
     }
   ]

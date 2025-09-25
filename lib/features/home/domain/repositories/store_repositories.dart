@@ -1,5 +1,5 @@
-import 'package:oasis_salon_app/models/store_models.dart';
+import 'package:oasis_salon_app/features/home/data/data_sources/models/store_models.dart';
 
 abstract class StoreRepository {
-  Future<List<Store>> getStores();
+  Future<List<StoreModel>> getStores();
 }
